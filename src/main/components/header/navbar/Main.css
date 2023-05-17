@@ -1,0 +1,38 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo_div{
+    width: 10%;
+}
+.logo_div img{
+    width: 100%;
+}
+.cart_logo{
+    width: 10%;
+}
+.cart_logo img {
+    width: 30%;
+}
+
+.cart_logo{
+    position: relative;
+}
+
+.cart_logo .cart_no {
+    position: absolute;
+    padding-left: 6px;
+    padding-bottom: 24px;
+
+    background-color: red ;
+    border-radius: 100%;
+    width: 20px;
+    height: 8px;
+    
+}
+
+
+
+
