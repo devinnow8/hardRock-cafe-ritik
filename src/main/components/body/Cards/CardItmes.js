@@ -5,7 +5,7 @@ import CardItmesData from "./CardItmesData";
 function CardItmes() {
   return (
     <div>
-      <CardItmesData  />
+      <CardItmesData/>
     </div>
   );
 }

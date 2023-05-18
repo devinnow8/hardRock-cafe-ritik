@@ -1,4 +1,33 @@
+.footer_links{
+    display: flex;
+}
+.main{
+    background-color: black;
+    color: aliceblue;
+    height: 400pxpx;
+}
+
 .logo .logo_png{
     width: 20px;
     height: 20px
 }
+img, svg {
+    vertical-align: middle;
+    width: 150px;
+    height: 100px;
+}
+.first_div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content:space-evenly;
+    padding: 90px;
+
+}
+
+
+hr {
+    width: 80%;
+    justify-content: center;
+}
+

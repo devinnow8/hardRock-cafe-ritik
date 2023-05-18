@@ -25,14 +25,21 @@
     position: absolute;
     padding-left: 6px;
     padding-bottom: 24px;
-
-    background-color: red ;
+    background-color: rgb(140, 96, 55) ;
+    color:white;
     border-radius: 100%;
     width: 20px;
     height: 8px;
     
 }
 
+
+.main {
+    background-color: black;
+    color: aliceblue;
+    height: 400px;
+    
+}
 
 
 

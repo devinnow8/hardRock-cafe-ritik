@@ -12,7 +12,7 @@ function Main() {
       </div>
       <h1>Sunrise</h1>
       <div className="cart_logo">
-        <img src="./images/60992.png" alt="cart" />
+        <img src="./images/60992.png" alt="cart"  style={{width:"35px", height:"40px"}}/>
         <span className="cart_no">2</span>
       </div>
      

@@ -1,8 +1,14 @@
 .main_card  .list_items  .img_src{
-
-  width: 150px;
-  height:150px
+  border: 3px solid rgb(147, 124, 81);
+  border-radius: 5px;
 }
 
+.main_card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 900px;
+  padding: 50px;
+  margin: auto;
 
-
+}

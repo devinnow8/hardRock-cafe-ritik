@@ -1,0 +1,16 @@
+.itemcard-data-inner{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.itemcard-data{
+    padding-left: 20px;
+}
+
+
+.itemcard-data-rs{
+    color:rgb(140, 96, 55)
+}

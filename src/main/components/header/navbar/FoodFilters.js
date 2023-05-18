@@ -6,10 +6,10 @@ function FoodFilters() {
     <div>
 
     <div className='button_style'>
-       <button> All</button>
-       <button> BreakFast</button>
-       <button> Lunch</button>
-       <button> Shakes</button>
+       <button className='button'> All</button>
+       <button className='button'> BreakFast</button>
+       <button className='button'> Lunch</button>
+       <button className='button'> Shakes</button>
 
     </div>
     </div>
