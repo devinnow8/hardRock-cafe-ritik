@@ -2,10 +2,10 @@ import React from "react";
 import "./CardItmes.css"
 import CardItmesData from "./CardItmesData";
 
-function CardItmes() {
+function CardItmes({setCartProducts, cartProducts}) {
   return (
     <div>
-      <CardItmesData/>
+      <CardItmesData setCartProducts={setCartProducts} cartProducts={cartProducts}/>
     </div>
   );
 }

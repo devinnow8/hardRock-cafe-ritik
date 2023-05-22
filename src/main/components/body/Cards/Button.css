@@ -1,0 +1,33 @@
+.button-parent-container{
+    display: flex;
+    padding-left: 412px;
+    justify-content: space-evenly;
+    
+}
+
+.button-parent-container .button-child-container .button-to-add{
+    border: 2px solid rgb(140, 96, 55);
+    border-radius: 10px ;
+    background-color: white;
+    color: rgb(140, 96, 55);
+    cursor:pointer;
+    /* margin: 4px 8px; */
+
+}
+
+
+
+
+/* .button-parent-container.button-child-container{
+    border: 2px solid rgb(140, 96, 55);
+    border-radius: 10px ;
+    padding: 8px;
+    width: 150px;
+    background-color: white;
+    color: rgb(140, 96, 55);
+    cursor:pointer;
+    display: inline-block;
+    margin: 4px 8px;
+  
+  
+  } */

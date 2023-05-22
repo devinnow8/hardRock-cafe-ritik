@@ -6,4 +6,5 @@ justify-content:space-around;
 .cart-child-body-container  .cart-child-img-conatainer{
 border: 1px solid transparent;
     border-radius: 50%;
+    display: flex;
 }

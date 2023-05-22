@@ -8,10 +8,10 @@ import burgir5 from "../../../../foodItmes/unnamed.jpg";
 import burgir6 from "../../../../foodItmes/Tazikis-Celebrates-Grand-Re-Opening-with-1-Dollar-Menu-Items.jpg";
 import burgir7 from "../../../../foodItmes/k-aacrlpufy4xh.jpg";
 import ItemCard from "./ItemCard";
-
+import { Button } from "./Button";
 import "./CardItmes.css";
 
-function CardItmesData() {
+function CardItmesData({setCartProducts, cartProducts}) {
   const cardData = [
     {
       key: "1",
@@ -91,7 +91,9 @@ function CardItmesData() {
     <div>
       <div className="main_card">
         {cardData.map((data) => {
-          return <ItemCard key={data.key} data={data} />;
+          return  <ItemCard key={data.key} data={data} setCartProducts={setCartProducts} cartProducts={cartProducts}/>
+          
+          
         })}
       </div>
     </div>
