@@ -20,15 +20,17 @@ function CardItmesData() {
         "is simply dummy text of the printing and typesetting indusrty.Lorem ipsum has been the industry's",
       image: burgir,
       rs: 270,
+      category:"breakfast"
     },
 
     {
-      key: "",
+      key: "2",
       title: "GodZilla Milkshake",
       description:
         "is simply dummy text of the printing and typesetting indusrty.Lorem ipsum has been the industry's",
       image: burgir1,
       rs: 270,
+      category:"shakes"
     },
     {
       key: "3",
@@ -37,6 +39,7 @@ function CardItmesData() {
         "is simply dummy text of the printing and typesetting indusrty.Lorem ipsum has been the industry's",
       image: burgir2,
       rs: 270,
+      category:"breakfast"
     },
     {
       key: "4",
@@ -45,6 +48,7 @@ function CardItmesData() {
         "is simply dummy text of the printing and typesetting indusrty.Lorem ipsum has been the industry's",
       image: burgir3,
       rs: 270,
+      category:"lunch"
     },
     {
       key: "5",
@@ -53,6 +57,7 @@ function CardItmesData() {
         "is simply dummy text of the printing and typesetting indusrty.Lorem ipsum has been the industry's",
       image: burgir4,
       rs: 270,
+      category:"lunch"
     },
     {
       key: "6",
@@ -61,6 +66,7 @@ function CardItmesData() {
         "is simply dummy text of the printing and typesetting indusrty.Lorem ipsum has been the industry's",
       image: burgir5,
       rs: 270,
+      category:"lunch"
     },
     {
       key: "7",
@@ -69,6 +75,7 @@ function CardItmesData() {
         "is simply dummy text of the printing and typesetting indusrty.Lorem ipsum has been the industry's",
       image: burgir6,
       rs: 270,
+      category:"shakes"
     },
     {
       key: "8",
@@ -77,6 +84,7 @@ function CardItmesData() {
         "is simply dummy text of the printing and typesetting indusrty.Lorem ipsum has been the industry's",
       image: burgir7,
       rs: 270,
+      category:"shakes"
     },
   ];
   return (
